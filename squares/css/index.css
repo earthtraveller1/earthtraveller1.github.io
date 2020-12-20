@@ -15,6 +15,9 @@ h1 {
 #header {
     color: red;
     background-color: skyblue;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
     padding: 80px;
 }
 
