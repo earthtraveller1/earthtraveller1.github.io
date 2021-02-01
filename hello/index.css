@@ -15,3 +15,7 @@ body {
 #run-script:hover {
     background-color: lightgreen;
 }
+
+#output {
+    font-family: monospace;
+}
