@@ -1,11 +1,10 @@
 var body = document.getElementsByTagName("body");
+var output = document.getElementById("output");
 
 function addOutput() {
-    var output = document.createElement("p");
     var outputText = document.createTextNode("The script ran!");
-    
     output.appendChild(outputText);
-    body[0].appendChild(output);
+    output.appendChild(document.createElement("br"));
 }
 
 var link = document.getElementById("run-script");
