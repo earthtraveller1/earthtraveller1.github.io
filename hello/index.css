@@ -3,17 +3,18 @@ h1 {
 }
 
 body {
-    background-color: yellow;
+    background-color: black;
+    color: white;
     font-family: sans-serif;
 }
 
 #run-script {
     text-decoration: none;
-    color: blue;
+    color: lightblue;
 }
 
 #run-script:hover {
-    background-color: lightgreen;
+    background-color: green;
 }
 
 #output {
