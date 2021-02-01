@@ -7,11 +7,11 @@ body {
     font-family: sans-serif;
 }
 
-#runscript {
+#run-script {
     text-decoration: none;
     color: blue;
 }
 
-#runscript:hover {
+#run-script:hover {
     background-color: lightgreen;
 }
