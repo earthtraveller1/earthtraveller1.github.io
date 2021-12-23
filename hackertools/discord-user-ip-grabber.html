@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Discord User IP Grabber</title>
+        <style>
+            body
+            {
+                text-align: center
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>Discord User IP Grabber</h1>
+        <em>
+            Grabs the IP of any Discord user! 100% Guaranteed to work. 
+            Bypasses VPNs, TOR, and other IP protection stuff. Simply
+            enter a keyword and we will tell you the IP of the user
+            with the closest match.
+        </em>
+        
+        <br>
+        <br>
+        
+        Keyword: <input type="text" id="entryBox">
+        <input type="button" value="Grab IP." id="button">
+        
+        <p id="result"></p>
+    </body>
+    
+    <script>
+        let button = document.getElementById("button")
+        let entryBox = document.getElementById("entryBox")
+        
+        let randomIP = "lol"
+        
+        button.onclick = (clickEvent) => {
+            let result = document.getElementById("result")
+            
+            // Generate a random IP
+            let ipPartOne = Math.floor(Math.random() * 1000) + 50;
+            let ipPartTwo = Math.floor(Math.random() * 100);
+            let ipPartThree = Math.floor(Math.random() * 1000) + 100;
+            let ipPartFour = Math.floor(Math.random() * 100) + 1;
+            
+            if (randomIP == "lol")
+            {
+                randomIP = ipPartOne + "." + ipPartTwo + "." + ipPartThree + "." + ipPartFour
+            }
+            
+            result.innerHTML = "The IP is is currently " + randomIP
+            
+            setTimeout(() => {
+                window.location.href = "https://www.youtube.com/watch?v=0GeQVtZ6Rd4"
+            }, 1000)
+        }
+    </script>
+</html>
