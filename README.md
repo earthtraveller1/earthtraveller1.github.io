@@ -1,2 +1,3 @@
-# Hello56721.github.io
-This is a site I created using github pages
+# Hello56721's Website
+
+My official website! I am terrible at front-end web development so don't expect much.
