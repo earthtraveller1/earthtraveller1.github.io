@@ -4,7 +4,8 @@ h1 {
 }
 
 #title {
-    padding: 8rem;
+    padding-top: 4em;
+    margin-bottom: 4em;
     margin-top: 0;
 }
 
@@ -27,16 +28,21 @@ nav {
 }
 
 main {
-    margin-left: 7.5em;
-    margin-right: 7.5em;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2em;
     margin-bottom: 2em;
     background-color: rgb(40, 37, 37);
-    height: 1000px;
+    width: 70vw;
     padding: 1rem;
     border-color: rgb(32, 32, 32);
     border-style: groove;
     border-width: 5px;
+}
+
+main p {
+    text-align: center;
+    margin: 2em;
 }
 
 nav a {
@@ -53,8 +59,4 @@ nav a:hover {
     background-color: rgb(83, 83, 83);
     transition-property: background-color;
     transition-duration: 0.1s;
-}
-
-#first-paragraph {
-    text-align: center;
 }
