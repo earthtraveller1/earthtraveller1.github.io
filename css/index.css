@@ -15,7 +15,7 @@ body {
     background-image: url("../images/GPU.jpg");
     background-position-x: center;
     background-position-y: top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     color: white;
 }
