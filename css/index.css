@@ -1,63 +1,47 @@
-h1 {
-    text-align: center;
-    font-size: 5vw;
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#title {
-    padding-top: 3em;
-    margin-bottom: 3em;
-    margin-top: 0;
+@keyframes brighten-title {
+    from {
+        color: rgb(0, 0, 0);
+    }
+    to {
+        color: rgb(128, 128, 128);
+    }
+}
+
+@keyframes brighten-small {
+    from {
+        color: rgb(0, 0, 0);
+    }
+    to {
+        color: rgb(64, 64, 64);
+    }
 }
 
 body {
-    margin: 0;
-    background-color: rgb(0, 0, 0);
-    background-image: url("../images/GPU.jpg");
-    background-position-x: center;
-    background-position-y: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: white;
+    background-color: black;
 }
 
-nav {
-    text-align: center;
-    background-color: rgb(94, 94, 94);
-    margin: 0;
-    padding-bottom: 1em;
-    padding-top: 1em;
+h1 {
+    font-size: 200pt;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.01em;
+    animation-name: brighten-title;
+    animation-fill-mode: forwards;
+    animation-duration: 2.5s;
 }
 
-main {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    background-color: rgb(40, 37, 37);
-    width: 70vw;
-    padding: 1rem;
-    border-color: rgb(32, 32, 32);
-    border-style: groove;
-    border-width: 5px;
-}
-
-main p {
-    text-align: center;
-    margin: 2em;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 20pt;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 0.6em;
-    padding-top: 2em;
-}
-
-nav a:hover {
-    background-color: rgb(83, 83, 83);
-    transition-property: background-color;
-    transition-duration: 0.1s;
+p {
+    font-size: 32pt;
+    font-family: 'Times New Roman', Times, serif;
+    animation-fill-mode: forwards;
+    animation-name: brighten-small;
+    animation-duration: 2.5s;
+    animation-delay: 2.5s;
+    color:rgb(0, 0, 0);
 }
