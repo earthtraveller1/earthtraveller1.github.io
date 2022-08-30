@@ -1,0 +1,53 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes brighten-title {
+    from {
+        color: rgb(0, 0, 0);
+    }
+    to {
+        color: rgb(128, 128, 128);
+    }
+}
+
+@keyframes brighten-small {
+    from {
+        color: rgb(0, 0, 0);
+    }
+    to {
+        color: rgb(64, 64, 64);
+    }
+}
+
+.page {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    padding-top: 0;
+    top: 0;
+    left: 0;
+}
+
+.bigText {
+    font-size: 200pt;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.01em;
+    animation-name: brighten-title;
+    animation-fill-mode: forwards;
+    animation-duration: 2.5s;
+}
+
+.smallText {
+    font-size: 32pt;
+    font-family: 'Times New Roman', Times, serif;
+    animation-fill-mode: forwards;
+    animation-name: brighten-small;
+    animation-duration: 1.5s;
+    animation-delay: 2.5s;
+    color:rgb(0, 0, 0);
+}
