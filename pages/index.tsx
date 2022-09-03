@@ -12,7 +12,7 @@ export default function Index() {
         setTimeout(() => {
             setSmallText("Just no...")
         }, 2500)
-    })
+    }, [])
     
     return (
         <>
