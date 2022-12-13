@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial';
+    max-width: 72rem;
+    margin: auto;
+}
+
+img {
+    max-width: 48rem;
+    text-align: center;
+}
+
+.centered-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+}
