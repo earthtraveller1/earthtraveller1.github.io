@@ -9,9 +9,9 @@ export default function Home() {
         <h1 className="text-center text-4xl m-4">EarthTraveller1</h1>
         <p className="text-center text-md m-2">Yes, Indeed!</p>
 
-        <div className="flex justify-between p-16">
+        <div className="flex justify-center p-16">
             {images.map((image, _index, _array) => {
-                const size = 400
+                const size = 200
                 return <Image src={`/images/${image}`} alt={`image/${image}`} key={null} width={size} height={size} />
             })}
         </div>
